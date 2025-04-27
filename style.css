@@ -28,6 +28,35 @@ nav {
     color: #ff6347;
 }
 
+footer {
+    position: fixed;
+    bottom: 10px;
+    text-align: center;
+    color: #37474F;
+    font-size: 18px;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  .social-links a {
+    color: #37474F;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #ff6347;
+  }
+
 @media screen and (max-width: 768px) {
     .nav-links {
         flex-direction: column;
